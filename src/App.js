@@ -4,9 +4,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       Hej
-    </div>
+    </Router>
   );
 }
 
