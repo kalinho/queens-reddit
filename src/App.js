@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      Hej
+      <h1>Hejsan</h1>
     </Router>
   );
 }
