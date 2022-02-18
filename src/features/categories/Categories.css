@@ -1,0 +1,13 @@
+.categories-component {
+    text-align: left;
+}
+
+ul {
+    padding: 6rem 2rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}

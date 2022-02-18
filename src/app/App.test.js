@@ -6,3 +6,4 @@ test('renders h1', () => {
   const linkElement = screen.getByText(/Hejsan/);
   expect(linkElement).toBeInTheDocument();
 });
+

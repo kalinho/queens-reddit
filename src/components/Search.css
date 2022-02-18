@@ -1,0 +1,8 @@
+.search-component {
+    padding: 1rem;
+}
+
+input {
+    height: 2rem;
+    width: 12rem;
+}
