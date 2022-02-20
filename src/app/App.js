@@ -6,16 +6,6 @@ import CommentsPage from '../features/posts/commentsPage/CommentsPage'
 import Categories from '../features/categories/Categories';
 
 function App() {
-  const [imgUrl, setImgUrl] = useState(''); 
-
-  
-  useEffect(async () => {
-    const result = await fetch('https://www.reddit.com/r/queen.json')
-    const data = await result.json()
-    setImgUrl('')
-    console.log(data)
-
-  }, [])
 
   
 

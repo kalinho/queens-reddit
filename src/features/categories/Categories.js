@@ -4,15 +4,15 @@ import './Categories.css';
  
 function Categories(props) {
 
-  const categories = ['queen', 'queencirclejerk', 'Queemes', 'freddiemercury', 'BrianMay', 'JohnDeacon']
-
-
+  const categories = ['queen', 'queencirclejerk', 'Queemes', 'freddiemercury', 'BrianMay', 'JohnDeacon'];
 
   return (
     <div className='categories-component'>
       <ul>
         {categories.map(cat => (
-          <li key={cat}><NavLink to={`/${cat}`}>{cat}</NavLink></li>
+          <li key={cat}>
+            <NavLink to={`/${cat}`}>{cat}</NavLink>
+          </li>
           ))
         }
       </ul>
