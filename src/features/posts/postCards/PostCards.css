@@ -2,6 +2,7 @@
     border: 1px solid black;
     border-radius: 10px;
     margin: 1rem 0;
+
 }
 
 .post-header {
@@ -9,10 +10,11 @@
 }
 
 .post-body {
-    padding: 1rem;
-    width: initial;
+    padding: 2rem;
     display: flex;
     justify-content: center;
+    height: auto;
+    word-break: break-word;
 }
 
 img {
